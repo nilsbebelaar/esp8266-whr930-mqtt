@@ -1,13 +1,10 @@
-# esp8266-whr930-mqtt
-Based on the work that Mosibi did for the WHR930 and the reverse engineering the guys at See Solutions did, but now running on an ESP8266 based chip instead of a Raspberry Pi!
-
-* http://www.see-solutions.de/sonstiges/Protokollbeschreibung_ComfoAir.pdf
-* https://github.com/Mosibi/whr_930
+# esp8266-whr950-mqtt
+Based on the work of LukasdeBoer. https://github.com/LukasdeBoer/esp8266-whr930-mqtt
 
 # Requirements
-* esp8266-based chip (I used a NodeMCU v3)
+* esp8266-based chip (I used a NodeMCU v2)
 * RS232-TTL converter (based on max3232)
-  * connect to VU, G, TX and RX (on a NodeMCU v3)
+  * connect to VU, G, TX and RX (on a NodeMCU)
 * some dupont cables
 * a converter from DB9 to RJ45 with the following pinout:
   * RJ45 2 (orange) -> DB9 2
